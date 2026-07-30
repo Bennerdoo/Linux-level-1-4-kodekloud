@@ -19,6 +19,11 @@ The Nautilus DevOps team is strategizing the migration of a portion of their inf
 Enter datacenter-subnet.
 
 7. Availability Zone: 
-Choose any preferred zone (e.g., us-east-1a) or leave it as No preference.IPv4 CIDR block: Enter an unused CIDR block within your default VPC range (for example, if your default VPC is 172.31.0.0/16, you can enter 172.31.128.0/20 or any available sub-range).
+Choose any preferred zone (e.g., us-east-1a) or leave it as No preference.
 
-8. Review and Create:Finalize Subnet.Scroll to the bottom and click Create subnet.Verify that datacenter-subnet now appears in your Subnets list marked as Available.VerificationOnce created, you can verify it in the console by going to VPC > Subnets and searching for datacenter-subnet. Confirm that its associated VPC ID matches your default VPC ID.
+8. IPv4 CIDR block: 
+Enter an unused CIDR block within your default VPC range (for example, if your default VPC is 172.31.0.0/16, you can enter 172.31.128.0/20 or any available sub-range).
+
+9. Review and Create:
+Finalize Subnet.Scroll to the bottom and click Create subnet.
+Verify that datacenter-subnet now appears in your Subnets list marked as Available.VerificationOnce created, you can verify it in the console by going to VPC > Subnets and searching for datacenter-subnet. Confirm that its associated VPC ID matches your default VPC ID.
